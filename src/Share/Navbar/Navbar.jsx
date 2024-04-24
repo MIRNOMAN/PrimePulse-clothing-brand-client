@@ -8,23 +8,31 @@ const Navbar = () => {
     isPending ? "pending" : isActive ? "active" : ""
   }
 >
-  Home
-</NavLink></li>
-<li><NavLink
-  to="/shop"
-  className={({ isActive, isPending }) =>
-    isPending ? "pending" : isActive ? "active" : ""
-  }
->
   Shop
 </NavLink></li>
 <li><NavLink
-  to="/about"
+  to="/men"
   className={({ isActive, isPending }) =>
     isPending ? "pending" : isActive ? "active" : ""
   }
 >
-  About
+  Men
+</NavLink></li>
+<li><NavLink
+  to="/women"
+  className={({ isActive, isPending }) =>
+    isPending ? "pending" : isActive ? "active" : ""
+  }
+>
+  Women
+</NavLink></li>
+<li><NavLink
+  to="/kids"
+  className={({ isActive, isPending }) =>
+    isPending ? "pending" : isActive ? "active" : ""
+  }
+>
+  Kids
 </NavLink></li>
   </>
   return (

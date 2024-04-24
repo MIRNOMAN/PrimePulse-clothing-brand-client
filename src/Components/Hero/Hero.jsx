@@ -13,7 +13,7 @@ const Hero = () => {
 
             <div>
                 <div className="hero-hand-icon">
-                    <p>NEW</p>
+                    <p>new</p>
                     <img src={hand_icon} alt="" />
                 </div>
                 <p>collections</p>
