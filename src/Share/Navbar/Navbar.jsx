@@ -1,5 +1,5 @@
 import { NavLink } from "react-router-dom"
-import logo from "../../Images/logo.png"
+import logo from "../../Images/logo (2).png"
 const Navbar = () => {
   const navlinks = <>
   <li><NavLink
