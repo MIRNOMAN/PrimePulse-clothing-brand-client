@@ -32,3 +32,6 @@ transition: 0.6s;
     background: linear-gradient(180deg, #fde1ff 0%, #e1ffea22 60%);
     gap: 30px;
 }
+.footer-container{
+    border: 1px solid #ebebeb;
+}
