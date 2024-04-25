@@ -1,8 +1,10 @@
-
+import men_banner from "../../Images/banner_mens.png";
 
 const Men = () => {
   return (
-    <div>Men</div>
+    <div className="shop-category">
+       <img src={men_banner} alt="" />
+    </div>
   )
 }
 

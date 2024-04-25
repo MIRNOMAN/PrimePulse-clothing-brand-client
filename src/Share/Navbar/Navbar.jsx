@@ -1,5 +1,7 @@
-import { NavLink } from "react-router-dom"
-import logo from "../../Images/logo (2).png"
+import { NavLink } from "react-router-dom";
+import logo from "../../Images/logo (2).png";
+
+
 const Navbar = () => {
   const navlinks = <>
   <li><NavLink
@@ -11,7 +13,7 @@ const Navbar = () => {
   Shop
 </NavLink></li>
 <li><NavLink
-  to="/men"
+  to="/men" 
   className={({ isActive, isPending }) =>
     isPending ? "pending" : isActive ? "active" : ""
   }
@@ -19,7 +21,7 @@ const Navbar = () => {
   Men
 </NavLink></li>
 <li><NavLink
-  to="/women"
+  to="/women" 
   className={({ isActive, isPending }) =>
     isPending ? "pending" : isActive ? "active" : ""
   }
@@ -27,7 +29,7 @@ const Navbar = () => {
   Women
 </NavLink></li>
 <li><NavLink
-  to="/kids"
+  to="/kids" 
   className={({ isActive, isPending }) =>
     isPending ? "pending" : isActive ? "active" : ""
   }

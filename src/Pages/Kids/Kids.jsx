@@ -1,8 +1,11 @@
-
+import kids_banner from "../../Images/banner_kids.png";
 
 const Kids = () => {
   return (
-    <div>Kids</div>
+    <div className="shop-category">
+    <img  src={kids_banner} alt="" />
+ </div>
+
   )
 }
 
