@@ -10,11 +10,11 @@ const Men = () => {
   return (
     <div className="shop-category">
       <img className="block  w-[77%]" src={men_banner} alt="" />
-      <div className="flex m-[0px 170px] justify-between items-center">
+      <div className="flex m-[0px 170px] mt-8 justify-between items-center">
         <p>
           <span className="font-semibold">Showing 1-12 </span> out of 36 products
         </p>
-        <div className="px-3 py-5  shopcategory-sort ">
+        <div className="mx-10 p-3 flex justify-center items-center gap-2  shopcategory-sort ">
           Sort by <img src={dropdown_icon} alt="" />
         </div>
       </div>
